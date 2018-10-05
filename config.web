@@ -1,0 +1,6 @@
+<configuration> 
+<globalization 
+requestencoding="utf-8" 
+responseencoding="utf-8" 
+/> 
+</configuration> 

@@ -1,0 +1,54 @@
+Sub aa(strSQL) 	
+			 rst.open strSQL, my_conn,1
+			if rst.RecordCount=0 then
+				 response.write("<ul>没有保存成功</ul>")
+			else 			
+					 response.write("<ul>") 
+		 	    response.write("<li style='width:80px'>" & rst("username") & "</li>")
+				response.write("<li style='width:40px'>" & rst("gz") & "</li>")
+				response.Write("</ul>")
+			   
+'			
+			end if 
+	
+End sub 
+
+
+<%
+   set my_conn=Server.CreateObject("ADODB.Connection")
+    DBPath = Server.MapPath("db/db.mdb")
+   my_conn.Open "provider=microsoft.jet.oledb.4.0;data source="&dbpath
+set rst = Server.CreateObject("ADODB.Recordset")
+
+   gz=request.QueryString("t1")
+      username=request.QueryString("t2")
+response.expires=-1
+response.charset="gb2312" 
+   
+ '调用date()和time()函数来获取客户留言的时间
+ ltime=date()+time()
+ 
+
+
+StrSql = "INSERT INTO  Leaveword (Username,gz,dtime) Values ('"
+ StrSql = StrSql & username & "', '"
+ StrSql = StrSql & gz & "', '"
+ StrSql = StrSql & ltime & "' ) "
+ 
+
+ '调用Connection对象的Execute方法来执行INSERT INTO语句
+my_conn.Execute StrSql
+    'rst.open StrSql, my_conn,1
+    if err <> 0 then
+	  response.write("未保存成功") 
+	 else 
+	 response.write("保存成功")
+	 'strSQL = "Select * from Leaveword WHERE Username='" & username & "'  ORDER BY Username desc "
+   'aa(strSQL)
+	 end if
+
+
+ '断开数据库连接，关闭数据库，释放Connection对象变量 
+ my_conn.Close
+ set my_conn=nothing 
+%>

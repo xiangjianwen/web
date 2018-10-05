@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<8uftp>
+<Settings>
+<Item name="Last Server Host" type="string">173.254.240.100</Item>
+<Item name="Last Server Port" type="numeric">21</Item>
+<Item name="Last Server User" type="string">xiangtk1</Item>
+<Item name="Last Server dont save pass" type="numeric">0</Item>
+<Item name="Last server name" type="string"></Item>
+<Item name="Last Server Pass" type="string">047127117127005003001005007</Item>
+<Item name="Last Server Firewall Bypass" type="numeric">0</Item>
+<Item name="Last Server Path" type="string">256 0 8 xiangtk1 10 xiang13.tk 7 wwwroot</Item>
+<Item name="Last Server Type" type="numeric">256</Item>
+<Item name="Last Server transfer mode" type="numeric">0</Item>
+<Item name="Default Folder" type="string">C:\Users\Administrator\Desktop\ÐÅÏ¢²éÑ¯\db\</Item>
+<Item name="Last Window Size" type="string">1 -8 -8 1374 736</Item>
+<Item name="Last Splitter Pos" type="string">455 140 534 821 537</Item>
+<Item name="Tool Normal Start" type="numeric">0</Item>
+<Item name="Pasv" type="numeric">1</Item>
+</Settings>
+<RecentServers>
+<Server Host="xiangjianwen.3vfree.us" Port="21" User="xiangjianwen" Pass="112122127117127006001001" FirewallBypass="0" DontRememberPass="0" ServerType="256" Path="" PasvMode="0" TimeZoneOffset="0"/>
+<Server Host="180.214.162.232" Port="21" User="web123456" Pass="057036070003007005001007000011011" FirewallBypass="0" DontRememberPass="0" ServerType="256" Path="" PasvMode="0" TimeZoneOffset="0"/>
+<Server Host="002.3vftp.com" Port="21" User="xiangjianwen" Pass="112122127117127006001001" FirewallBypass="0" DontRememberPass="0" ServerType="256" Path="" PasvMode="0" TimeZoneOffset="0"/>
+<Server Host="182.18.8.30" Port="21" User="ftp202325" Pass="047127117127005003001005007" FirewallBypass="0" DontRememberPass="0" ServerType="256" Path="" PasvMode="0" TimeZoneOffset="0"/>
+<Server Host="xiangjianwen.free3v.net" Port="21" User="xiangjianwen" Pass="112122127117127006001001" FirewallBypass="0" DontRememberPass="0" ServerType="256" Path="" PasvMode="0" TimeZoneOffset="0"/>
+<Server Host="173.254.240.100" Port="21" User="xiangtk" Pass="047127117127005003001005007" FirewallBypass="0" DontRememberPass="0" ServerType="256" Path="" PasvMode="0" TimeZoneOffset="0"/>
+<Server Host="users17.jabry.com" Port="21" User="xiang12" Pass="047127117127005003001005007" FirewallBypass="0" DontRememberPass="0" ServerType="256" Path="xiang12/" PasvMode="0" TimeZoneOffset="0"/>
+<Server Host="173.254.240.100" Port="21" User="xiangtk1" Pass="047127117127005003001005007" FirewallBypass="0" DontRememberPass="0" ServerType="256" Path="" PasvMode="0" TimeZoneOffset="0"/>
+</RecentServers>
+<Sites>
+<Site Name="ÐÂ FTP Õ¾µã" Host="182.18.8.30" Port="21" User="ftp202325" RemoteDir="/ftp202325/" LocalDir="" Pass="047127117127005003001005007" Logontype="1" FWBypass="0" DontSavePass="0" ServerType="0" PasvMode="0" TimeZoneOffset="0" TimeZoneOffsetMinutes="0" Comments="" DefaultSite="0"/>
+<Site Name="ÐÂ FTP Õ¾µã 2" Host="182.18.8.30" Port="21" User="ftp202325" RemoteDir="/ftp202325/Web/" LocalDir="" Pass="047127117127005003001005007" Logontype="1" FWBypass="0" DontSavePass="0" ServerType="0" PasvMode="0" TimeZoneOffset="0" TimeZoneOffsetMinutes="0" Comments="" DefaultSite="0"/>
+</Sites>
+<TransferQueue/>
+</8uftp>

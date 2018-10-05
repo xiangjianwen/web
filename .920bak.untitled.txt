@@ -1,0 +1,14 @@
+Sub aa(strSQL) 	
+			 rst.open strSQL, my_conn,1
+			if rst.RecordCount=0 then
+				 response.write("<ul>没有保存成功</ul>")
+			else 			
+					 response.write("<ul>") 
+		 	    response.write("<li style='width:80px'>" & rst("username") & "</li>")
+				response.write("<li style='width:40px'>" & rst("gz") & "</li>")
+				response.Write("</ul>")
+			   
+'			
+			end if 
+	
+End sub 
